@@ -1,13 +1,13 @@
 {
     "name": "nvmime",
-    "version": "1.0.2",
-    "description": "read write http headers",
+    "version": "1.0.3",
+    "description": "find mime name",
     "main": "nvmime.js",
     "scripts": {
         "nvmime": "./BINS/bin.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "keywords": ["http", "headers"],
+    "keywords": ["mime"],
     "author": "dli",
     "license": "MIT",
     "files": ["doc/*", "dist/*", "CONSTS/*", "BINS/*"],
