@@ -16,9 +16,6 @@ const clses = [
 ]
 
 
-
-
-
 function tobigd(mime) {
     let d = {}
     eded.update(d,mime.application)
@@ -33,11 +30,11 @@ function tobigd(mime) {
     return(d)
 }
 
-function srch(regex,cls) {
+function srch(mime,regex,cls) {
     let d = {}
     if(cls === undefined) {
-        let bigd = tobigd(mime,regex)
-        d = eded.srch(bigd)
+        let bigd = tobigd(mime)
+        d = eded.srch(bigd,regex)
     } else {
         d = eded.srch(mime[cls],regex)
     }
@@ -51,8 +48,11 @@ let cls = process.argv[2]
 console.log("<nvmime -l>    to list classes")
 console.log("<nvmime regex> to search")
 
+console.log(regex)
+console.log(cls)
+
 if(regex === "-l") {
     console.log(clses)
 } else {
-    console.log(srch(regex,cls))
+    console.log(srch(mime,regex,cls))
 }
