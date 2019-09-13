@@ -6,10 +6,14 @@
 >__npm install nvmime__
 
 
-## [Usage In Jsdoc](https://navegador5.github.io/nvmimejs/global.html#)
+## [Usage](https://navegador5.github.io/nvmimejs/global.html#)
 
+    npm install nvmime -g
 
-**[USAGE DOCS](https://navegador5.github.io/nvmimejs/global.html#)**
+    nvmime -l
+
+    nvmime multipart
+
 
 
 ## Introduce

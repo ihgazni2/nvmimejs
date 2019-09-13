@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+
 const mime = require("../nvmime.js").mime
 const eded = require("exdict")
 
