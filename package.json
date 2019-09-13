@@ -1,0 +1,37 @@
+{
+    "name": "nvhead",
+    "version": "1.0.1",
+    "description": "read write http headers",
+    "main": "nvhead.js",
+    "scripts": {
+        "nvmime": "./BINS/bin.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "http",
+        "headers"
+    ],
+    "author": "dli",
+    "license": "MIT",
+    "files": [
+        "doc/*",
+        "dist/*",
+        "CONSTS/*",
+        "BINS/*"
+    ],
+    "dependencies": {
+        "elist": "^1.4.17",
+        "exdict": "^1.0.14",
+        "tlist": "^1.0.4"
+    },
+    "devDependencies": {
+        "efdir": ">=1.0.3",
+        "jsdoc": ">1.6.3",
+        "webpack": "^4.35.3",
+        "webpack-cli": "^3.3.5"
+    },
+    "homepage": "https://navegador5.github.io/nvheadjs/global.html#",
+    "repository": {
+        "url": "https://github.com/navegador5/nvheadjs.git"
+    }
+}
