@@ -48,7 +48,7 @@ let cls = process.argv[3]
 console.log("<nvmime -l>    to list classes")
 console.log("<nvmime regex> to search")
 console.log("<nvmime regex cls> to search specific class")
-
+console.log("----------------------------------------\n")
 
 if(regex === "-l") {
     console.log("classes")
