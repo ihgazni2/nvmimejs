@@ -1,8 +1,8 @@
 {
-    "name": "nvhead",
+    "name": "nvmime",
     "version": "1.0.1",
     "description": "read write http headers",
-    "main": "nvhead.js",
+    "main": "nvmime.js",
     "scripts": {
         "nvmime": "./BINS/bin.js",
         "test": "echo \"Error: no test specified\" && exit 1"
@@ -30,8 +30,8 @@
         "webpack": "^4.35.3",
         "webpack-cli": "^3.3.5"
     },
-    "homepage": "https://navegador5.github.io/nvheadjs/global.html#",
+    "homepage": "https://navegador5.github.io/nvmimejs/global.html#",
     "repository": {
-        "url": "https://github.com/navegador5/nvheadjs.git"
+        "url": "https://github.com/navegador5/nvmimejs.git"
     }
 }
