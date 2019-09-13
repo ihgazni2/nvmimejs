@@ -42,8 +42,8 @@ function srch(mime,regex,cls) {
 }
 
 
-let regex = process.argv[1]
-let cls = process.argv[2]
+let regex = process.argv[2]
+let cls = process.argv[3]
 
 console.log("<nvmime -l>    to list classes")
 console.log("<nvmime regex> to search")
