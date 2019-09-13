@@ -1,6 +1,10 @@
 # nvmime
 >__nvmime__
 
+# Introduce
+
+    search mime name
+
 # Install
 
 >__npm install nvmime__
@@ -61,8 +65,8 @@
 
 
 
-## Introduce
--------------
+## GIT
+-------
   
 
 [nvmimejs](https://github.com/navegador5/nvmimejs)
