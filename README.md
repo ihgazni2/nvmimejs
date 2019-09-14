@@ -35,6 +35,7 @@
 ### nvmime \<regex or string\>
 
 #nvmime multipart
+
     <nvmime -l>    to list classes
     <nvmime regex> to search
     <nvmime regex cls> to search specific class
