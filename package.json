@@ -1,13 +1,13 @@
 {
     "name": "nvmime",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "description": "find mime name",
     "main": "nvmime.js",
     "bin": {
         "nvmime": "./BINS/bin.js"
     },
     "scripts": {
-        "preinstall": "node ./BINS/decompress.js"
+        "postinstall": "node ./BINS/decompress.js"
     },
     "keywords": ["mime"],
     "author": "dli",
