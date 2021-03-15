@@ -88,6 +88,18 @@ function slctiV(arr,condFunc,otherArgs) {
     return(narr.map((ele)=>(ele.i)))
 }
 
+function _seqs(arr,indexes) {
+    let narr = []
+    for(let i=0;i<indexes.length;i++) {
+        narr.push(arr[indexes[i]])
+    }
+    return(narr)
+}
+
+function uniqualize(arr) {
+    let st = new Set(arr)
+    return(Array.from(st))
+}
 
 
 function _srch(d,regex) {
@@ -96,10 +108,11 @@ function _srch(d,regex) {
     let seqsk = slctiV(kl,(r)=>(regex.test(r)===true))
     let seqsv = slctiV(vl,(r)=>(regex.test(r)===true))
     let seqs = seqsk.concat(seqsv)
-    seqs = seqs.uniqualize()
-    kl = kl.seqs(seqs)
+    seqs = uniqualize(seqs)
+    kl = _seqs(kl,seqs)
     return(slctViaKeyList0(d,kl))
 }
+
 
 
 function tobigd(mime) {
