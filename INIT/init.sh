@@ -5,7 +5,7 @@ git init
 if [ $scheme = "https" ];then
     git remote add origin https://github.com/navegador5/nvmimejs.git
     git remote add origin-git git@github.com:navegador5/nvmimejs.git
-    git remote add origin-https https://github.com:navegador5/nvmimejs.git
+    git remote add origin-https https://github.com/navegador5/nvmimejs.git
 fi
 
 if [ $scheme = "git" ];then

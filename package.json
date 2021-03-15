@@ -1,31 +1,16 @@
 {
     "name": "nvmime",
-    "version": "1.0.9",
+    "version": "1.1.0",
     "description": "find mime name",
     "main": "nvmime.js",
     "bin": {
         "nvmime": "./BINS/bin.js"
     },
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "preinstall": "node ./BINS/decompress.js"
     },
     "keywords": ["mime"],
     "author": "dli",
     "license": "MIT",
-    "files": ["doc/*", "dist/*", "CONSTS/*", "BINS/*"],
-    "dependencies": {
-        "elist": "^1.4.17",
-        "exdict": "^1.0.14",
-        "tlist": "^1.0.4"
-    },
-    "devDependencies": {
-        "efdir": "^1.0.3",
-        "jsdoc": ">1.6.3",
-        "webpack": "^4.35.3",
-        "webpack-cli": "^3.3.5"
-    },
-    "homepage": "https://navegador5.github.io/nvmimejs/global.html#",
-    "repository": {
-        "url": "https://github.com/navegador5/nvmimejs.git"
-    }
+    "files": ["CONSTS/*", "BINS/*"]
 }
